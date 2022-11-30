@@ -18,7 +18,7 @@ button {
 /* Generics */
 
 body {
-	background-color: #eee;
+	background-color: #f6f8f9;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,7 +26,7 @@ body {
 
 .container {
 	max-width: 80%;
-	width: 1200px;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -54,8 +54,30 @@ body {
 	background-color: transparent;
 }
 
+/* Colors */
+
 .bg-editorial {
-	background-color: rgb(11, 126, 126);
+	background-color: #45abea;
+}
+
+.bg-goals {
+	background-color: #9a70e3;
+}
+
+.bg-recruiting {
+	background-color: #62bea7;
+}
+
+.bg-mobile {
+	background-color: #f09c32;
+}
+
+.bg-website {
+	background-color: #d6619f;
+}
+
+.bg-sales {
+	background-color: #afc825;
 }
 
 /* Header */
@@ -64,8 +86,7 @@ body {
 	background-color: #fff;
 	height: 100px;
 	line-height: 100px;
-
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .header-title {
@@ -84,16 +105,22 @@ body {
 .card {
 	width: 100%;
 	background-color: white;
-	border-radius: 15px;
+	border-radius: 10px;
 }
 
 .card-head {
-	padding: 15px;
+	padding: 15px 50px;
 	border-bottom: 2px solid #eee;
 }
 
 .card-body {
-	padding: 15px;
+	padding: 15px 50px;
+}
+
+/* Lists */
+
+.list-heading {
+	margin-top: 25px;
 }
 
 .list-heading::before {
@@ -101,9 +128,9 @@ body {
 }
 
 .list-item {
-	height: 25px;
-	line-height: 25px;
-	margin: 30px 0;
+	height: 20px;
+	line-height: 20px;
+	margin: 10px 0 20px 0;
 }
 .list-item > * {
 	vertical-align: middle;
@@ -114,20 +141,21 @@ body {
 	border: 1px solid currentColor;
 	font-size: 12px;
 	border-radius: 50%;
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	text-align: center;
 	font-weight: bold;
+	margin-right: 10px;
 }
 
 .list-item.check::before {
 	content: '\2714';
-	color: green;
+	color: #61c0a9;
 }
 
 .list-item.uncheck::before {
 	content: '\2718';
-	color: red;
+	color: #e7372f;
 }
 
 .label {
