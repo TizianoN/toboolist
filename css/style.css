@@ -1,0 +1,139 @@
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+}
+
+/* Generics */
+
+body {
+	background-color: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Utils */
+
+.container {
+	max-width: 80%;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.btn {
+	display: inline-block;
+	padding: 8px;
+	background-color: #fff;
+	border: 1px solid currentColor;
+	color: #222;
+	border-radius: 5px;
+	cursor:pointer;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+
+.btn.btn-primary {
+	color: #fff;
+	border: 1px solid #47adf1;
+	background-color: #47adf1;
+}
+
+.btn.btn-outline {
+	color: #444;
+	background-color: transparent;
+}
+
+.bg-editorial {
+	background-color: rgb(11, 126, 126);
+}
+
+/* Header */
+
+.top-bar {
+	background-color: #fff;
+	height: 100px;
+	line-height: 100px;
+
+	margin-bottom: 100px;
+}
+
+.header-title {
+	vertical-align: middle;
+	display: inline;
+	font-size: 36px;
+}
+
+#logo {
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+/* Card */
+
+.card {
+	width: 100%;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.card-head {
+	padding: 15px;
+	border-bottom: 2px solid #eee;
+}
+
+.card-body {
+	padding: 15px;
+}
+
+.list-heading::before {
+	content: '\25BE';
+}
+
+.list-item {
+	height: 25px;
+	line-height: 25px;
+	margin: 30px 0;
+}
+.list-item > * {
+	vertical-align: middle;
+}
+
+.list-item::before {
+	display: inline-block;
+	border: 1px solid currentColor;
+	font-size: 12px;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.list-item.check::before {
+	content: '\2714';
+	color: green;
+}
+
+.list-item.uncheck::before {
+	content: '\2718';
+	color: red;
+}
+
+.label {
+	display: inline-block;
+	padding: 2px 8px;
+	font-size: 11px;
+	color: #fff;
+	border-radius: 10px;
+}
